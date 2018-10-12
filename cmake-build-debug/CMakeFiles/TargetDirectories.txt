@@ -1,0 +1,3 @@
+C:/Users/LaptopAZ.vn/CLionProjects/Ex121018_01_hanhnd/cmake-build-debug/CMakeFiles/Ex121018_01_hanhnd.dir
+C:/Users/LaptopAZ.vn/CLionProjects/Ex121018_01_hanhnd/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LaptopAZ.vn/CLionProjects/Ex121018_01_hanhnd/cmake-build-debug/CMakeFiles/rebuild_cache.dir
