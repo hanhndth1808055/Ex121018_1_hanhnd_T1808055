@@ -12,10 +12,10 @@ bool validateCanh(int canh1, int canh2) {
 }
 
 float tinhCanhHuyen(int canh1,int canh2) {
-    double tongBinhPhuong = (pow((double) canh1, 2) + pow((double) canh2, 2));
-    return (float) sqrt(tongBinhPhuong);
+//    double tongBinhPhuong = (pow((double) canh1, 2) + pow((double) canh2, 2));
+//    return (float) sqrt(tongBinhPhuong);
+    return (float) sqrt(pow(canh1, 2) + pow(canh2, 2));
 }
-
 int main() {
     //Nhap 2 canh cua goc vuong
     int canh1, canh2;
@@ -26,7 +26,6 @@ int main() {
     scanf("%d", &canh2);
     getchar();
     //Kiem tra 2 canh
-    validateCanh(canh1, canh2);
     bool isValidateCanh = validateCanh(canh1, canh2);
     //Neu dung thi in ra do dai canh huyen
     if (isValidateCanh) {
